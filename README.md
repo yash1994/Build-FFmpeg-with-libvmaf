@@ -22,3 +22,5 @@
     `sudo make`
     
     `sudo make install`
+    
+    `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib`
