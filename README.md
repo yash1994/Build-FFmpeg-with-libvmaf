@@ -26,4 +26,5 @@
     
     `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib`
 6. To build ffmpeg with Nvidia-Cuda support use following command:
+    
     `./configure --enable-gpl --enable-gnutls --enable-demuxer=dash --enable-libxml2 --enable-librsvg --enable-libaom --enable-libass --enable-libfdk-aac --enable-libmp3lame --enable-libfreetype --enable-libvorbis --enable-libopus --enable-libvpx --enable-libx264 --enable-libx265 --enable-nonfree --enable-libvmaf --enable-version3 --enable-cuda-nvcc --enable-cuvid --enable-nvenc --enable-nonfree --enable-libnpp --extra-cflags=-I/usr/local/cuda/include --extra-ldflags=-L/usr/local/cuda/lib64 --nvccflags='-gencode arch=compute_61,code=sm_61'`
